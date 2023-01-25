@@ -5,6 +5,7 @@
 ![img](./public/useState.jpg)
 
 ## React Hooks rules
+
 * Hooks can not implement into class component, only into function component
 
 ```js
@@ -56,3 +57,6 @@ function App() {
 
 ```
 
+## useEffect()
+
+* side effect
