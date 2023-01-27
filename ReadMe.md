@@ -4,6 +4,30 @@
 
 ![img](./public/useState.jpg)
 
+## Hooks
+
+> Fundamental Hooks
+* useState
+* useEffect
+* useContext
+
+> Important Hooks
+* useRef
+* useMemo
+* useCallback
+* useReducer
+* useTransition
+* useDeferredValue
+
+>Optional Hooks
+* useLayoutEffect
+* useDebugValue
+* useImperativeHandle
+* useId
+
+>Custom Hook
+
+
 ## React Hooks rules
 
 * Hooks can not implement into class component, only into function component
