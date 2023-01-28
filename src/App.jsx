@@ -1,8 +1,11 @@
 import React, { createContext, useState } from "react";
-import UseContext from "./components/useContext/UseContext";
-import UseEffect from "./components/useEffect/UseEffect";
-import BasicUseStateExample from "./components/useStateExample/BasicUseStateExample";
-import WW from "./components/windowWidth/ww";
+import UseContext from "./hooks/useContext/UseContext";
+import UseEffect from "./hooks/useEffect/UseEffect";
+import UseId from "./hooks/useId/UseId";
+import UseMemo from "./hooks/useMemo/UseMemo";
+import UseRef from "./hooks/useRef/UseRef";
+import BasicUseStateExample from "./hooks/useStateExample/BasicUseStateExample";
+import WW from "./hooks/windowWidth/ww";
 
 //create context
 export const ThemeContext = createContext();
@@ -27,10 +30,16 @@ function App() {
       {/* <WW/> */}
 
       {/* Here all child component will effected with dark theme context */}
-      <ThemeContext.Provider value={darkTheme}>
+      {/* <ThemeContext.Provider value={darkTheme}>
         <button onClick={toggleTheme}>Toggle Theme</button>
         <UseContext/>
-      </ThemeContext.Provider>
+      </ThemeContext.Provider> */}
+
+      {/* <UseRef/> */}
+
+      {/* <UseMemo/> */}
+
+      <UseId/>
     </div>
   )
 }
