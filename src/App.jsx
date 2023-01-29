@@ -5,7 +5,8 @@ import UseId from "./hooks/useId/UseId";
 import UseMemo from "./hooks/useMemo/UseMemo";
 import UseRef from "./hooks/useRef/UseRef";
 import BasicUseStateExample from "./hooks/useStateExample/BasicUseStateExample";
-import WW from "./hooks/windowWidth/ww";
+import StopWatch from "./useCases/stopWatch/StopWatch";
+import WW from "./useCases/windowWidth/ww";
 
 //create context
 export const ThemeContext = createContext();
@@ -26,9 +27,6 @@ function App() {
 
       {/* <UseEffect/> */}
 
-      {/* widow width */}
-      {/* <WW/> */}
-
       {/* Here all child component will effected with dark theme context */}
       {/* <ThemeContext.Provider value={darkTheme}>
         <button onClick={toggleTheme}>Toggle Theme</button>
@@ -39,7 +37,16 @@ function App() {
 
       {/* <UseMemo/> */}
 
-      <UseId/>
+      {/* <UseId/> */}
+
+      {/* Custom Hooks */}
+
+      {/* useCases */}
+      {/* widow width */}
+      {/* <WW/> */}
+
+      <StopWatch/>
+      
     </div>
   )
 }
