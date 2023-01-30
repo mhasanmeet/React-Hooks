@@ -5,8 +5,14 @@ import UseId from "./hooks/useId/UseId";
 import UseMemo from "./hooks/useMemo/UseMemo";
 import UseRef from "./hooks/useRef/UseRef";
 import BasicUseStateExample from "./hooks/useStateExample/BasicUseStateExample";
+
+//use cases
 import StopWatch from "./useCases/stopWatch/StopWatch";
 import WW from "./useCases/windowWidth/ww";
+
+//custom Hooks
+import ToggleComponent from "./customHooks/useToggle/toggleComponent";
+
 
 //create context
 export const ThemeContext = createContext();
@@ -44,8 +50,10 @@ function App() {
       {/* useCases */}
       {/* widow width */}
       {/* <WW/> */}
+      {/* <StopWatch/> */}
 
-      <StopWatch/>
+      {/* custom hooks */}
+      <ToggleComponent/>
       
     </div>
   )
