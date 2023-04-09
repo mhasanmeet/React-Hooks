@@ -13,6 +13,7 @@ import WW from "./useCases/windowWidth/ww";
 //custom Hooks
 import ToggleComponent from "./customHooks/useToggle/toggleComponent";
 import TimeoutComponent from "./customHooks/useTimeout/TimeoutComponent";
+import DebounceComponent from "./customHooks/useDebounce/DebounceComponent";
 
 
 //create context
@@ -56,6 +57,7 @@ function App() {
       {/* custom hooks */}
       {/* <ToggleComponent/> */}
       {/* <TimeoutComponent/> */}
+      <DebounceComponent/>
       
     </div>
   )

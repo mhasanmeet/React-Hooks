@@ -27,7 +27,8 @@
 
 >Custom Hook
 * useToggle
-* 
+* useTimeout
+* useDebounce
 
 
 ## React Hooks rules
