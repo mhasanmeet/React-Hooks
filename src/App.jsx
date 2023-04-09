@@ -12,6 +12,7 @@ import WW from "./useCases/windowWidth/ww";
 
 //custom Hooks
 import ToggleComponent from "./customHooks/useToggle/toggleComponent";
+import LocalStorageComponent from "./customHooks/useLocalStorage/LocalStorageComponent";
 
 
 //create context
@@ -53,7 +54,8 @@ function App() {
       {/* <StopWatch/> */}
 
       {/* custom hooks */}
-      <ToggleComponent/>
+      {/* <ToggleComponent/> */}
+      <LocalStorageComponent/>
       
     </div>
   )
