@@ -12,7 +12,7 @@ import WW from "./useCases/windowWidth/ww";
 
 //custom Hooks
 import ToggleComponent from "./customHooks/useToggle/toggleComponent";
-import LocalStorageComponent from "./customHooks/useLocalStorage/LocalStorageComponent";
+import TimeoutComponent from "./customHooks/useTimeout/TimeoutComponent";
 
 
 //create context
@@ -55,7 +55,7 @@ function App() {
 
       {/* custom hooks */}
       {/* <ToggleComponent/> */}
-      <LocalStorageComponent/>
+      {/* <TimeoutComponent/> */}
       
     </div>
   )
