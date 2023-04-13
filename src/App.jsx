@@ -1,10 +1,10 @@
 import React, { createContext, useState } from "react";
+import UseState from "./hooks/useState/UseState";
 import UseContext from "./hooks/useContext/UseContext";
 import UseEffect from "./hooks/useEffect/UseEffect";
 import UseId from "./hooks/useId/UseId";
 import UseMemo from "./hooks/useMemo/UseMemo";
 import UseRef from "./hooks/useRef/UseRef";
-import BasicUseStateExample from "./hooks/useStateExample/BasicUseStateExample";
 
 //use cases
 import StopWatch from "./useCases/stopWatch/StopWatch";
@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="app">
-      {/* <BasicUseStateExample/> */}
+      <UseState/>
 
       {/* <UseEffect/> */}
 
@@ -61,7 +61,7 @@ function App() {
       {/* <TimeoutComponent/> */}
       {/* <DebounceComponent/> */}
       {/* <UpdateEffectComponent/> */}
-      <UseArrayComponent/>
+      {/* <UseArrayComponent/> */}
       
     </div>
   )
