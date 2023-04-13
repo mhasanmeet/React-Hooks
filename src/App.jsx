@@ -1,22 +1,27 @@
 import React, { createContext, useState } from "react";
-import UseState from "./hooks/useState/UseState";
-import UseContext from "./hooks/useContext/UseContext";
-import UseEffect from "./hooks/useEffect/UseEffect";
-import UseId from "./hooks/useId/UseId";
-import UseMemo from "./hooks/useMemo/UseMemo";
-import UseRef from "./hooks/useRef/UseRef";
+
+// Primary Hooks
+import UseState from "./001-primary-hooks/useState/UseState";
+import UseEffect from "./001-primary-hooks/useEffect/UseEffect";
+import UseContext from "./001-primary-hooks/useContext/UseContext";
+
+// Less used hooks
+import UseRef from "./002-less-used-hooks/useRef/UseRef";
+import UseMemo from "./002-less-used-hooks/useMemo/UseMemo";
+
+// Optional Hooks
+import UseId from "./003-optional-hooks/useId/UseId";
+
+//custom Hooks
+import ToggleComponent from "./004-custom-Hooks/useToggle/ToggleComponent";
+import TimeoutComponent from "./004-custom-Hooks/useTimeout/TimeoutComponent";
+import DebounceComponent from "./004-custom-Hooks/useDebounce/DebounceComponent";
+import UpdateEffectComponent from "./004-custom-Hooks/useUpdateEffect/UpdateEffectComponent";
+import UseArrayComponent from "./004-custom-Hooks/useArray/UseArrayComponent";
 
 //use cases
 import StopWatch from "./useCases/stopWatch/StopWatch";
 import WW from "./useCases/windowWidth/ww";
-
-//custom Hooks
-import ToggleComponent from "./customHooks/useToggle/toggleComponent";
-import TimeoutComponent from "./customHooks/useTimeout/TimeoutComponent";
-import DebounceComponent from "./customHooks/useDebounce/DebounceComponent";
-import UpdateEffectComponent from "./customHooks/useUpdateEffect/UpdateEffectComponent";
-import UseArrayComponent from "./customHooks/useArray/UseArrayComponent";
-
 
 //create context
 export const ThemeContext = createContext();
