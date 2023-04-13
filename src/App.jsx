@@ -19,6 +19,7 @@ import DebounceComponent from "./004-custom-Hooks/useDebounce/DebounceComponent"
 import UpdateEffectComponent from "./004-custom-Hooks/useUpdateEffect/UpdateEffectComponent";
 import UseArrayComponent from "./004-custom-Hooks/useArray/UseArrayComponent";
 import PreviousComponent from "./004-custom-Hooks/usePrevious/PreviousComponent";
+import StateWithHistoryComponent from "./004-custom-Hooks/useStateWithHistory/StateWithHistoryComponent";
 
 //use cases
 import StopWatch from "./use-cases/stopWatch/StopWatch";
@@ -68,7 +69,8 @@ function App() {
       {/* <DebounceComponent/> */}
       {/* <UpdateEffectComponent/> */}
       {/* <UseArrayComponent/> */}
-      <PreviousComponent/>
+      {/* <PreviousComponent/> */}
+      <StateWithHistoryComponent/>
       
     </div>
   )
