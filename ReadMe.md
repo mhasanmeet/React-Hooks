@@ -25,11 +25,11 @@
 * useImperativeHandle
 * useId
 
->Custom Hook
+>Custom Hooks
 * useToggle
 * useTimeout
 * useDebounce
-
+* useUpdateEffect
 
 ## React Hooks rules
 
@@ -83,10 +83,9 @@ function App() {
 } 
 
 ```
-
 ### useEffect()
 
-* side effect
+* side effect: A functional React component uses props and/or state to calculate the output. If the component makes calculations that don't target the output value, then these calculations are named **side-effects.**
 
 ### useRef()
 
@@ -124,13 +123,8 @@ useMemo(() => {
 ### useTransition()
 ### useTransition()
 ### useDeferredValue()
-
 ### useId()
-
 useId() use for generate unique ids for use within HTML elements.
-
-## Custom Hooks
-
 
 
 ## useCases
@@ -144,5 +138,4 @@ useId() use for generate unique ids for use within HTML elements.
 
 * [React Hooks Simplified by Kyle](https://courses.webdevsimplified.com/view/courses/react-hooks-simplified)
 * [Dmitri Posts](https://dmitripavlutin.com/tag/react/)
-* 
 

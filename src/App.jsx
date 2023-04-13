@@ -14,6 +14,7 @@ import WW from "./useCases/windowWidth/ww";
 import ToggleComponent from "./customHooks/useToggle/toggleComponent";
 import TimeoutComponent from "./customHooks/useTimeout/TimeoutComponent";
 import DebounceComponent from "./customHooks/useDebounce/DebounceComponent";
+import UpdateEffectComponent from "./customHooks/useUpdateEffect/UpdateEffectComponent";
 
 
 //create context
@@ -57,7 +58,8 @@ function App() {
       {/* custom hooks */}
       {/* <ToggleComponent/> */}
       {/* <TimeoutComponent/> */}
-      <DebounceComponent/>
+      {/* <DebounceComponent/> */}
+      <UpdateEffectComponent/>
       
     </div>
   )
