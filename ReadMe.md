@@ -30,6 +30,8 @@
 * useTimeout
 * useDebounce
 * useUpdateEffect
+* useArray
+* usePrevious
 
 ## React Hooks rules
 

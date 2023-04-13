@@ -18,10 +18,11 @@ import TimeoutComponent from "./004-custom-Hooks/useTimeout/TimeoutComponent";
 import DebounceComponent from "./004-custom-Hooks/useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./004-custom-Hooks/useUpdateEffect/UpdateEffectComponent";
 import UseArrayComponent from "./004-custom-Hooks/useArray/UseArrayComponent";
+import PreviousComponent from "./004-custom-Hooks/usePrevious/PreviousComponent";
 
 //use cases
-import StopWatch from "./useCases/stopWatch/StopWatch";
-import WW from "./useCases/windowWidth/ww";
+import StopWatch from "./use-cases/stopWatch/StopWatch";
+import WW from "./use-cases/windowWidth/ww";
 
 //create context
 export const ThemeContext = createContext();
@@ -38,7 +39,7 @@ function App() {
 
   return (
     <div className="app">
-      <UseState/>
+      {/* <UseState/> */}
 
       {/* <UseEffect/> */}
 
@@ -67,6 +68,7 @@ function App() {
       {/* <DebounceComponent/> */}
       {/* <UpdateEffectComponent/> */}
       {/* <UseArrayComponent/> */}
+      <PreviousComponent/>
       
     </div>
   )
