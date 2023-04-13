@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+    align-items: center;
+    font-size: 1.5rem;
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 1.1rem;
+
+        button{
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: aquamarine;
+        }
+    }
+}
+

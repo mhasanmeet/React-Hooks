@@ -15,6 +15,7 @@ import ToggleComponent from "./customHooks/useToggle/toggleComponent";
 import TimeoutComponent from "./customHooks/useTimeout/TimeoutComponent";
 import DebounceComponent from "./customHooks/useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./customHooks/useUpdateEffect/UpdateEffectComponent";
+import UseArrayComponent from "./customHooks/useArray/UseArrayComponent";
 
 
 //create context
@@ -59,7 +60,8 @@ function App() {
       {/* <ToggleComponent/> */}
       {/* <TimeoutComponent/> */}
       {/* <DebounceComponent/> */}
-      <UpdateEffectComponent/>
+      {/* <UpdateEffectComponent/> */}
+      <UseArrayComponent/>
       
     </div>
   )
