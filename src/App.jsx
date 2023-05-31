@@ -20,6 +20,7 @@ import UpdateEffectComponent from "./004-custom-Hooks/useUpdateEffect/UpdateEffe
 import UseArrayComponent from "./004-custom-Hooks/useArray/UseArrayComponent";
 import PreviousComponent from "./004-custom-Hooks/usePrevious/PreviousComponent";
 import StateWithHistoryComponent from "./004-custom-Hooks/useStateWithHistory/StateWithHistoryComponent";
+import StorageComponent from "./004-custom-Hooks/useStorage/StorageComponent";
 
 //use cases
 import StopWatch from "./use-cases/stopWatch/StopWatch";
@@ -40,23 +41,21 @@ function App() {
 
   return (
     <div className="app">
+      {/* Primary Hooks */}
       {/* <UseState/> */}
-
       {/* <UseEffect/> */}
-
       {/* Here all child component will effected with dark theme context */}
       {/* <ThemeContext.Provider value={darkTheme}>
         <button onClick={toggleTheme}>Toggle Theme</button>
         <UseContext/>
       </ThemeContext.Provider> */}
 
+      {/* Less used Hooks */}
       {/* <UseRef/> */}
-
       {/* <UseMemo/> */}
 
+      {/* Optional Hooks */}
       {/* <UseId/> */}
-
-      {/* Custom Hooks */}
 
       {/* useCases */}
       {/* widow width */}
@@ -70,7 +69,8 @@ function App() {
       {/* <UpdateEffectComponent/> */}
       {/* <UseArrayComponent/> */}
       {/* <PreviousComponent/> */}
-      <StateWithHistoryComponent/>
+      {/* <StateWithHistoryComponent/> */}
+      <StorageComponent/>
       
     </div>
   )
